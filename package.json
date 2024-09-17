@@ -1,0 +1,32 @@
+{
+  "name": "graphqlcrud01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --env-file=.env.dev index.js",
+    "json-server": "npx json-server --watch db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^4.11.0",
+    "@graphql-tools/graphql-file-loader": "^8.0.1",
+    "@graphql-tools/load": "^8.0.2",
+    "@graphql-tools/load-files": "^7.0.0",
+    "@prisma/client": "^5.19.1",
+    "@types/node": "^22.5.5",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "graphql": "^16.9.0",
+    "graphql-tag": "^2.12.6",
+    "json-server": "^1.0.0-beta.2",
+    "prisma": "^5.19.1",
+    "sqlite": "^5.1.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}

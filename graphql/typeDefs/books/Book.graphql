@@ -1,0 +1,8 @@
+type Book {
+  id: Int
+  title: String
+  publisher: String
+  author: Author
+  _count: CommentCount
+  comments: [Comment]
+}

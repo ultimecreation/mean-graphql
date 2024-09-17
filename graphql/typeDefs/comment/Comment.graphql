@@ -1,0 +1,6 @@
+type Comment {
+  id: String
+  content: String
+  author: User
+  book: Book
+}
